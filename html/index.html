@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="../css/style.css">
+      <title>Form</title>
+   </head>
+   <body>
+      <nav>
+         <div class="topnav">
+            <div class="svg">
+               <img src="../images/quadyster.svg" alt="quadyster" height="25" width="160">
+            </div>
+            <div class="menu">
+               <a href="#">Home</a>
+               <a href="#">Users</a>
+               <a href="#">Portals</a>
+               <select name="drop" class="menudrop">
+                  <option value="Partners1">Partners</option>
+                  <option value="Partners2">Partners1</option>
+                  <option value="Partners3">Partners2</option>
+               </select>
+               <select name="drop" class="menudrop">
+                  <option value="Fulfillments1">Fulfillments</option>
+                  <option value="Fulfillments2">Fulfillments1</option>
+                  <option value="Fulfillments3">Fulfillments2</option>
+               </select>
+               <a href="#">Opportunities</a>
+               <a href="#">New opportunity</a>
+            </div>
+            <div class="find">
+               <select name="drop" class="menudrop">
+                 <!-- <option value=""></option> -->
+                 <option value="MANJARI">Manjari Prakash</option>
+                 <option value="MANJARI">Manjari Prakash</option>
+               </select>
+               <input type="text" class="mytext" placeholder="Search" >
+               <button class="btn search"> search</button>
+            </div>
+         </div>
+      </nav>
+         <form>
+            <table class="customer">
+               <tr>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td>
+                     <label class="abtcustomer">Contract Id:</label>
+                  </td>
+                  <td colspan="5">
+                     <input type="text" class="box" value="CON0003" placeholder="Contract Id" disabled>
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <label class="abtcustomer">Contract Number: </label>
+                  </td>
+                  <td colspan="5">
+                     <input type="text" class="box" value="PR-R9-17-00207"  placeholder="Contract Number">
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <label class="abtcustomer">Name:</label>
+                  </td>
+                  <td colspan="5">
+                     <input type="text" class="box" placeholder="Name" value="Arcserve">
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <label class="abtcustomer">Description:</label>
+                  </td>
+                  <td colspan="5" >
+                     <textarea name="description" class="box" placeholder="Description">Description</textarea>
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <label class="abtcustomer">Customer Code:</label>
+                  </td>
+                  <td colspan="3">
+                     <select name="customer_code"   id="code">
+                        <option value="CUSDO3-US">CUSDO3-US Environmental protection Agency</option>
+                        <option value="DOC02-000SB1-Rajiv Gandhi Institute  Technology of science and college">DOC02-000SB1-Rajiv Gandhi Institute Technology of science and college</option>
+                        <option value="DOC03-000SB2-Guru Ramdas Khalsa Institute of Science and Technology">DOC03-000SB2-GRKIST College</option>
+                     </select>
+                  </td>
+                  <td colspan="2">
+                     <input type="submit"  class="btn view" value="View Customer">
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <label class="abtcustomer">Contract Date: </label>
+                  </td>
+                  <td colspan="2">
+                     <input type="date" class="box" value="2017-07-10">
+                  </td>
+                  <td>
+                     <label class="abtcustomer">Solicitation Number:</label>
+                  </td>
+                  <td colspan="2">
+                     <input type="text" class="box" value="RFQ-CA-17-00014" placeholder="Solicitation Number">
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <label class="abtcustomer">Perf Period From: </label>
+                  </td>
+                  <td colspan="2">
+                     <input type="date"  class="box" value="2017-07-13">
+                  </td>
+                  <td>
+                     <label class="abtcustomer">Perf Period to:</label>
+                  </td>
+                  <td colspan="2">
+                     <input type="date" class="box" value="2017-07-12">
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <label class="abtcustomer">Performance Year:</label>
+                  </td>
+                  <td colspan="2">
+                     <select name="perform_year" class="box">
+                        <option value="one year">First Year</option>
+                        <option value="one year">Seccond Year</option>
+                        <option value="one year">Three Year</option>
+                     </select>
+                  </td>
+                  <td></td>
+                  <td colspan="2"></td>
+               </tr>
+               <tr>
+                  <td>
+                     <label class="abtcustomer">Delivery Date:</label>
+                  </td>
+                  <td colspan="2">
+                     <input type="date" class="box" value="2017-07-17">
+                  </td>
+                  <td>
+                     <label class="abtcustomer">Delivery Mode:</label>
+                  </td>
+                  <td colspan="2" >
+                     <select name="delivery_mode" class="box">
+                        <option value="email">Email</option>
+                        <option value="usps">USPS</option>
+                        <option value="ups">UPS</option>
+                     </select>
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <label class="abtcustomer">Delivery Status: </label>
+                  </td>
+                  <td colspan="2" >
+                     <select name="delivery_status" class="box">
+                        <option value="delivered">Delivered</option>
+                        <option value="not delivered">Not Delivered </option>
+                        <option value="on the way">On the way</option>
+                     </select>
+                  </td>
+                  <td></td>
+                  <td colspan="2"></td>
+               </tr>
+               <tr>
+                  <td>
+                     <label class="abtcustomer">Payment Terms:</label>
+                  </td>
+                  <td colspan="2">
+                     <select name="payment_terms" class="box">
+                        <option value="net 30">Net 30</option>
+                        <option value="net 45">Net 45</option>
+                        <option value="net 60">Net 60</option>
+                     </select>
+                  </td>
+                  <td>
+                     <label class="abtcustomer">Payment Mode:</label>
+                  </td>
+                  <td colspan="2">
+                     <select name="payment_mode" class="box">
+                        <option value="ach">ACH</option>
+                        <option value="cash">CASH</option>
+                        <option value="card">CARD</option>
+                     </select>
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <label class="abtcustomer">Payment Due Date: </label>
+                  </td>
+                  <td colspan="2">
+                     <input type="date" class="box" value="2017-07-08">
+                  </td>
+                  <td>
+                     <label class="abtcustomer">Contract Amount: </label>
+                  </td>
+                  <td colspan="2">
+                     <input type="text" class="box" placeholder="4121.73">
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <label class="abtcustomer">Fee Terms:</label>
+                  </td>
+                  <td colspan="2">
+                     <select name="fee_terms" class="box">
+                        <option value="1 month">1 Month</option>
+                        <option value="2 month">2 Month</option>
+                        <option value="3 month">3 Month</option>
+                     </select>
+                  </td>
+                  <td>
+                     <label class="abtcustomer">Fee Amount: </label>
+                  </td>
+                  <td colspan="2">
+                     <input type="text" class="box" value="0.00" placeholder="Fee Amount">
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <label class="abtcustomer">Fee Due Date: </label>
+                  </td>
+                  <td colspan="2">
+                     <input type="date" class="box" value="2017-08-07">
+                  </td>
+                  <td>
+                     <label class="abtcustomer"> Fee Paid Date: </label>
+                  </td>
+                  <td colspan="2">
+                     <input type="date" class="box" value="2017-08-07">
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <label class="abtcustomer">Contract Net Amount:</label>
+                  </td>
+                  <td colspan="2">
+                     <input type="text" class="box" value="4121.73" placeholder="Fee Amount">
+                  </td>
+                  <td>
+                     <label class="abtcustomer">Paid Date: </label>
+                  </td>
+                  <td colspan="2">
+                     <input type="date" class="box"  value="2017-07-28">
+                  </td>
+               <tr>
+                  <td>
+                     <label class="abtcustomer">Payment Status:</label>
+                  </td>
+                  <td colspan="5" >
+                     <select name="payment_status"  class="box">
+                        <option value="received">Received</option>
+                        <option value="not received"> Not Received</option>
+                        <option value="waiting">Waiting</option>
+                     </select>
+                  </td>
+               </tr>
+               <tr>
+                  <td colspan="6" class="center">
+                     <input type="button" class="btn save" value="Save">
+                     <input type="button"  class="btn delete" value="Delete">
+                     <input type="button"  class="btn switch" value="Switch to View ">
+                     <input type="button" class="btn goto" value="Goto: Contract list ">
+                  </td>
+               </tr>
+            </table>
+         </form>
+   </body>
+</html>
